@@ -67,10 +67,6 @@ Make sure you have the following installed:
 
 ---
 ## 🖼️ Screenshots
-
-Here are some screenshots of the application in action:
-## 🖼️ Screenshots
-
 Here are some screenshots of the application in action:
 
 ![Home Page](img/Screenshots/Home_Page.png)
