@@ -69,15 +69,18 @@ Make sure you have the following installed:
 ## 🖼️ Screenshots
 
 Here are some screenshots of the application in action:
+## 🖼️ Screenshots
+
+Here are some screenshots of the application in action:
 
 ![Home Page](img/Screenshots/Home_Page.png)
-![Modifying Data](img/Screenshots/Modifying Data.png)
-![No Change](img/Screenshots/No change.png)
-![No Modification](img/Screenshots/No modification.png)
-![Registered Student](img/Screenshots/Registered Student.png)
-![Only Valid Inputs](img/Screenshots/Only Valid Inputs.png)
-![Unique ID and Phone Number](img/Screenshots/Unique ID and Phone number.png)
-![Delete Option](img/Screenshots/Delete Option.png)
+![Modifying Data](img/Screenshots/Modifying_Data.png)
+![No Change](img/Screenshots/No_change.png)
+![No Modification](img/Screenshots/No_modification.png)
+![Registered Student](img/Screenshots/Registered_Student.png)
+![Only Valid Inputs](img/Screenshots/Only_Valid_Inputs.png)
+![Unique ID and Phone Number](img/Screenshots/Unique_ID_and_Phone_number.png)
+![Delete Option](img/Screenshots/Delete_Option.png)
 
 
 
