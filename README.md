@@ -2,7 +2,7 @@
 
 A **simple** and **intuitive** web-based Student Registration System developed using **JavaScript**. This application is designed for educational purposes, showcasing JavaScript functionalities and web development concepts in a practical way. Users can register students, validate form inputs, and manage student data effortlessly. 
 
-![Student Icon](./img/icons/student-icon.png)
+![Student Icon](./img/Favicon.png)
 
 ---
 
