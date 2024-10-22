@@ -1,0 +1,45 @@
+body {
+    background-size: cover;
+    background-position: center;
+}
+
+h1, h2 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+ul {
+    max-height: 300px; /* Set maximum height */
+    overflow-y: auto;  /* Enable vertical scrollbar */
+    border: 1px solid #ccc;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.8); /* semi-transparent background */
+}
+
+li {
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background: #f9f9f9;
+    transition: transform 0.2s;
+}
+
+li:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.hidden {
+    display: none;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.inset-0 {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}

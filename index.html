@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration System</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="./img/Favicon.jpg" type="image/x-icon">
+    <!-- My Github ID: https://github.com/Master-dinesh/Student_Registration_System -->
+    
+</head>
+<body class="bg-blue-900 p-5"> <!-- Dark blue background for the whole website -->
+    <h1 class="text-3xl font-extrabold text-center mb-4 text-indigo-600 font-sans italic ">
+        SmartEnroll: A Streamlined Student Registration Hub
+    </h1>
+    <p class="text-center mb-6 text-purple-500 font-serif text-lg leading-relaxed tracking-wide">
+        SmartEnroll transforms student registration into a quick, easy, and hassle-free process. 
+        Enjoy a sleek design, simple forms, and instant validation—all with just a few clicks!
+    </p>
+    
+    
+        
+        <form id="studentForm" class="mb-6 bg-white p-4 rounded-lg shadow"> <!-- White background for the form -->
+            <div class="mb-4">
+                <label for="studentName" class="block mb-2">Student Name:</label>
+                <input type="text" id="studentName" class="border border-gray-300 p-2 w-full" required>
+                <span id="nameError" class="text-red-500 text-sm hidden"></span>
+            </div>
+            <div class="mb-4">
+                <label for="studentID" class="block mb-2">Student ID:</label>
+                <input type="text" id="studentID" class="border border-gray-300 p-2 w-full" required>
+                <span id="idError" class="text-red-500 text-sm hidden"></span>
+            </div>
+            <div class="mb-4">
+                <label for="email" class="block mb-2">Email:</label>
+                <input type="email" id="email" class="border border-gray-300 p-2 w-full" required>
+                <span id="emailError" class="text-red-500 text-sm hidden"></span>
+            </div>
+            <div class="mb-4">
+                <label for="contactNumber" class="block mb-2">Contact Number:</label>
+                <input type="text" id="contactNumber" class="border border-gray-300 p-2 w-full" required>
+                <span id="contactError" class="text-red-500 text-sm hidden"></span>
+            </div>
+            <button type="submit" class="bg-blue-500 text-white p-2 rounded">Add Student</button>
+        </form>
+        
+        <h2 class="text-xl font-bold mb-2 bg-Red-900">Registered Students</h2>
+        <div id="studentList" class="overflow-auto max-h-60 bg-yellow-100 border border-gray-300 p-2 rounded"> <!-- Light yellow background for registered students list -->
+        </div>
+    </div>
+
+    <!-- Custom Confirmation Dialog -->
+    <div id="confirmationDialog" class="hidden fixed inset-0 bg-gray-500 bg-opacity-75 flex justify-center items-center">
+        <div class="bg-white p-6 rounded shadow-md text-center">
+            <p id="dialogMessage" class="mb-4">Are you sure you want to modify this student's data?</p>
+            <button id="confirmButton" class="bg-green-500 text-white px-4 py-2 rounded mr-2">Yes</button>
+            <button id="cancelButton" class="bg-red-500 text-white px-4 py-2 rounded">Cancel</button>
+        </div>
+    </div>
+
+    <!-- Confirmation Dialog
+    <div id="confirmationDialog" class="hidden fixed inset-0 flex items-center justify-center bg-gray-800 bg-opacity-50">
+        <div class="bg-white p-5 rounded shadow-lg">
+            <p>Do you want to proceed with modifications?</p>
+            <button id="confirmButton" class="bg-blue-500 text-white px-4 py-2">Modify</button>
+            <button id="cancelButton" class="bg-gray-500 text-white px-4 py-2">Cancel</button>
+        </div>
+    </div> -->
+
+    <!-- Delete Confirmation Dialog -->
+    <div id="deleteConfirmationDialog" class="hidden fixed inset-0 flex items-center justify-center bg-gray-800 bg-opacity-50">
+        <div class="bg-white p-5 rounded shadow-lg">
+            <p>Are you sure you want to delete this student?</p>
+            <button id="deleteConfirmButton" class="bg-red-500 text-white px-4 py-2">Delete</button>
+            <button id="deleteCancelButton" class="bg-gray-500 text-white px-4 py-2">Cancel</button>
+        </div>
+    </div>
+<!-- Footer Section -->
+<footer class="text-center mt-6 pt-4 pb-4"> <!-- Centered footer -->
+    <hr class="my-4 border-b-2 border-blue-400"> <!-- Horizontal Separator -->
+    <p class="text-white text-sm font-semibold">
+        &copy; 2024 Copyrights By Dinesh S
+    </p>
+</footer>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
